@@ -8,7 +8,7 @@ public class Solution {
 
     public static void main(String[] args){
         int length;
-        int sum = 0;d
+        int sum = 0;
 
         Scanner scan = new Scanner(System.in);
         length = scan.nextInt();
