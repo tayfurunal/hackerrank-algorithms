@@ -10,7 +10,7 @@ public class Solution {
         int orangeTree = scan.nextInt();
         int fallenApple = scan.nextInt();
         int fallenOrange = scan.nextInt();
-        
+
         int applesOnHouse = 0;
         for (int i = 0; i < fallenApple; i++) {
             int applePosition = appleTree + scan.nextInt();
@@ -18,7 +18,7 @@ public class Solution {
                 applesOnHouse++;
             }
         }
-             
+
         int orangesOnHouse = 0;
         for (int i = 0; i < fallenOrange; i++) {
             int orangePosition = orangeTree + scan.nextInt();
@@ -28,7 +28,7 @@ public class Solution {
         }
         System.out.println(applesOnHouse);
         System.out.println(orangesOnHouse);
-        
+
         scan.close();
     }
 }

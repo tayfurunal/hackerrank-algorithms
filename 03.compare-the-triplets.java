@@ -12,8 +12,8 @@ public class Solution {
     public static int[] userInput(Scanner in) {
         int[] triplet = new int[3];
         for (int i = 0; i < 3; i++) {
-            a triplet[i
-            ] = in.nextInt();
+            a triplet[ i
+            ] =in.nextInt();
         }
         return triplet;
     }
